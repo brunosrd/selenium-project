@@ -1,0 +1,19 @@
+{
+  "name": "selenium-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests": "mocha tests/*.js"
+  },
+  "keywords": [],
+  "author": "Bruno Soares Ribeiro",
+  "license": "ISC",
+  "description": "Projeto de testes automatizados com Selenium",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "chromedriver": "^130.0.2",
+    "mocha": "^10.8.2",
+    "selenium-webdriver": "^4.26.0"
+  }
+}
